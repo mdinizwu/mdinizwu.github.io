@@ -229,6 +229,8 @@ div.main {
   max-width: 800px;
   text-align: left;
   font-size: 22px;
+  color: var(--white);
+
 }
 div.heading {
   padding: 0px;
