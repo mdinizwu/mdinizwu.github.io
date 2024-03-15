@@ -114,8 +114,8 @@ caption {
 table {
   /* border: 1px solid var(--white); */
   box-sizing: border-box;
-  border-top: 1px solid var(--black);
-  border-bottom: 1px solid var(--black);
+  border-top: 1px solid var(--white);
+  border-bottom: 1px solid var(--white);
   border-collapse: collapse;
   margin: 0px;
   padding: 0px;
@@ -147,7 +147,7 @@ th, td {
 tr {
 }
 tr.rule {
-  border-bottom: 1px dotted var(--black);
+  border-bottom: 1px dotted var(--white);
 }
 th {
   text-align: left;
@@ -171,7 +171,7 @@ div.name {
   background-color: var(--blue);
 }
 div.name a{
-  color: var(--black);
+  color: var(--white);
 }
 div.name a:hover{
   color: var(--hover);
