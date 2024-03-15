@@ -215,7 +215,7 @@ div.lastupdate {
   position: fixed;
   left: 0px;
   bottom: 0px;
-  color: var(--black);
+  color: var(--white);
   margin: 8px;
   padding: 8px;
   text-align: center;
@@ -382,7 +382,7 @@ hr {
   width: 100%;
   border-style: dotted none none;
   border-width: 6px;
-  border-color: var(--black);
+  border-color: var(--white);
   margin: 0px;
 }
 /* hr { */
