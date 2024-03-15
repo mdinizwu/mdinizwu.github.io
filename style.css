@@ -1,34 +1,20 @@
 :root {
-  /* --white: #f7f0e4; */
   --white: #fbf7f1;
-
-  --black: #17120f;  /* 27221f */
-  --grey: #5e4a3d;  /* b9a193 */
-
-  --blue: #1e88e5;
+  --black: #17120f;  
+  --grey: #5e4a3d;  
+  --blue: #6bb1ee;
   --green: #22ac7b;
   --yellow: #ffc107;
   --orange: #ff5430;
   --red: #d81b60;
   --purple: #7c1d6f;
-
   --gold: #d79921;
   --ndblue: #0c2340;
   --ndgold: #ae9142;
   --nddarkgold: #8c7535;
-
-  --link: var(--black);
+  --link: var(--white);
   --hover: var(--gold);
-  /* --hover: var(--gold); */
-
-  /* --red: #ea6962; */
-  /* --green: #a9b665; */
-  /* --yellow: #d8a657; */
-  /* --blue: #83a598; */
-  /* --purple: #d3869b; */
-  /* --orange: #e78a4e; */
-
-  /* --lain: #dda9a1; */
+ 
 }
 
 /*  */
@@ -112,8 +98,8 @@ a#grey svg:hover { color: var(--grey); }
 
 body { 
   background-color: var(--white);
-  color: var(--black);
-  font-family: 'EB Garamond', serif;
+  color: var(--blue);
+  font-family: 'Andale Mono', monospace;
   padding: 0px;
   margin: 0px;
 }
@@ -183,7 +169,6 @@ div.name {
   white-space: nowrap;
   text-align: left;
   background-color: var(--white);
-  /* color: var(--nddarkgold); */
 }
 div.name a{
   color: var(--black);
