@@ -97,9 +97,9 @@ a#grey svg:hover { color: var(--grey); }
 
 
 body { 
-  background-color: var(--white);
+  background-color: var(--blue);
   color: var(--blue);
-  font-family: 'Andale Mono', monospace;
+  font-family: 'Andale Mono';
   padding: 0px;
   margin: 0px;
 }
@@ -168,7 +168,7 @@ div.name {
   font-size: 48px;
   white-space: nowrap;
   text-align: left;
-  background-color: var(--white);
+  background-color: var(--blue);
 }
 div.name a{
   color: var(--black);
@@ -204,7 +204,7 @@ div.sidebar {
   width: 150px;
   min-width: 160px;
   font-size: 32px;
-  background-color: var(--white);
+  background-color: var(--blue);
   /* border-right: 1px solid var(--white); */
   text-align: right;
 }
