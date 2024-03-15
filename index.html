@@ -6,8 +6,8 @@
     <title>Your Website Title</title>
     <style>
         body {
-            background-color: #002fa7; /* Dark blue background */
-            color: #FFD700; /* Gold text */
+            background-color: #607ecc; /* Dark blue background */
+            color: #f5f3e9; /* Gold text */
             font-family: Helvetica, sans-serif;
             margin: 0;
             padding: 0;
@@ -17,6 +17,8 @@
             margin: 0 auto;
             padding: 20px;
             text-align: center;
+            display: flex;
+            align-items: flex-start;
         }
         h1 {
             font-size: 36px;
@@ -36,6 +38,31 @@
             width: 50px;
             height: 50px;
             margin-bottom: 10px;
+        }
+        /* Sidebar styles */
+        .sidebar {
+            background-color: #333; /* Dark sidebar background */
+            color: #FFF; /* White text */
+            padding: 20px;
+            width: 200px;
+            flex-shrink: 0; /* Prevent sidebar from shrinking */
+        }
+        .sidebar ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        .sidebar li {
+            margin-bottom: 10px;
+            cursor: pointer; /* Change cursor to pointer on hover */
+        }
+        .sidebar li:hover {
+            color: #FFD700; /* Change text color on hover */
+        }
+        /* Content styles */
+        .content {
+            flex: 1;
+            padding: 20px;
         }
     </style>
 </head>
