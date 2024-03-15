@@ -1,7 +1,65 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website Title</title>
+    <style>
+        body {
+            background-color: #0A2463; /* Dark blue background */
+            color: #FFD700; /* Gold text */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .info {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 50px;
+        }
+        .info-item {
+            flex-basis: 25%;
+            padding: 10px;
+        }
+        .info-item img {
+            width: 50px;
+            height: 50px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <div class="container">
+        <h1>Welcome to My Website</h1>
+        <div class="info">
+            <div class="info-item">
+                <img src="hometown_icon.png" alt="Hometown Icon">
+                <p>Hometown: Your Hometown</p>
+            </div>
+            <div class="info-item">
+                <img src="year_icon.png" alt="Year Icon">
+                <p>Year in College: Your Year</p>
+            </div>
+            <div class="info-item">
+                <img src="major_icon.png" alt="Major Icon">
+                <p>Major: Your Major</p>
+            </div>
+            <div class="info-item">
+                <img src="color_icon.png" alt="Favorite Color Icon">
+                <p>Favorite Color: Your Favorite Color</p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
