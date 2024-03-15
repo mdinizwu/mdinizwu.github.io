@@ -1,0 +1,7 @@
+title: Mirella Wunderlich
+description: A brief website on my descriptions
+url: "https://mdinizwu.github.io" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+theme: jekyll-theme-minimal
