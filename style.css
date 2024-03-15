@@ -181,7 +181,7 @@ div.subname {
   text-align: center;
   margin-top: 16px;
   font-size: 22px;
-  color: var(--black);
+  color: var(--white);
 }
 div.container {
   display: flex;
@@ -209,7 +209,7 @@ div.sidebar {
   text-align: right;
 }
 div.sidebar a {
-  color: var(--black);
+  color: var(--white);
 }
 div.lastupdate {
   position: fixed;
