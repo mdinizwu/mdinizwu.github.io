@@ -168,7 +168,7 @@ div.name {
   font-size: 48px;
   white-space: nowrap;
   text-align: left;
-  background-color: var(--blue);
+  /*background-color: var(--blue);*/
 }
 div.name a{
   color: var(--white);
@@ -204,7 +204,7 @@ div.sidebar {
   width: 150px;
   min-width: 160px;
   font-size: 20px;
-  background-color: var(--blue);
+  /*background-color: var(--blue);*/
   /* border-right: 1px solid var(--white); */
   text-align: right;
 }
