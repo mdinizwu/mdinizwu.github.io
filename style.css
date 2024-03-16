@@ -42,9 +42,7 @@ input:checked~ul.submenu {
 /*  */
 
 html { scroll-behavior: smooth; }
-object { }
-embed { }
-iframe { }
+
 div.floatright {
   float: right;
 }
@@ -139,12 +137,8 @@ table.double {
   justify-content: space-evenly;
   align-items: top;
 }
-.column {
-}
 th, td {
   padding: 2px 4px;
-}
-tr {
 }
 tr.rule {
   border-bottom: 1px dotted var(--white);
@@ -416,8 +410,8 @@ hr {
 
 .dot {
   cursor: pointer;
-  height: 7px;
-  width: 7px;
+  height: 15px;
+  width: 15px;
   margin: 0 2px;
   background-color: #bbb;
   border-radius: 50%;
