@@ -163,7 +163,7 @@ div.name {
   font-size: 48px;
   white-space: nowrap;
   text-align: left;
-  /*background-color: var(--blue);
+  /*background-color: var(--blue);*/
 }
 div.name a{
   color: var(--white);
@@ -200,8 +200,7 @@ div.sidebar {
   min-width: 160px;
   font-size: 20px;
   /*background-color: var(--blue);*/
-  border-right: 1px solid var(--white); */
-  text-align: right;
+  border-right: 1px solid var(--white);
 }
 div.sidebar a {
   color: var(--white);
@@ -329,16 +328,6 @@ ol {
   list-style-type: decimal;
   font-size: 16px;
 }
-ol.publications { }
-li { margin: 0px; }
-li.entry {
-  margin-top: 0px;
-  margin-bottom: 20px;
-  font-size: 16px;
-  font-weight: normal;
-}
-
-img { }
 img.headshot {
   display: block;
   margin: 0px auto;
