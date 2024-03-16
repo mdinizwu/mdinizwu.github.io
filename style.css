@@ -199,8 +199,8 @@ div.sidebar {
   width: 150px;
   min-width: 160px;
   font-size: 20px;
-  /*background-color: var(--blue);*/
-  /* border-right: 1px solid var(--white); */
+  background-color: var(--blue);*/
+  border-right: 1px solid var(--white); */
   text-align: right;
 }
 div.sidebar a {
