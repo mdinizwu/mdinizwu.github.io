@@ -95,8 +95,8 @@ a#grey svg:hover { color: var(--grey); }
 
 
 body { 
-  /*background-color: var(--blue);*/
-  /*color: var(--blue);*/
+  background-color: var(--blue);
+  color: var(--blue);
   font-family: 'Andale Mono';
   padding: 0px;
   margin: 0px;
@@ -155,6 +155,7 @@ div.name {
   top: 0;
   left: 0;
   position: sticky;
+  position: -webkit-sticky;
   height: 95px;
   width: 100%;
   box-sizing: border-box;
@@ -162,7 +163,7 @@ div.name {
   font-size: 48px;
   white-space: nowrap;
   text-align: left;
-  /*background-color: var(--blue);*/
+  background-color: var(--blue);
 }
 div.name a{
   color: var(--white);
